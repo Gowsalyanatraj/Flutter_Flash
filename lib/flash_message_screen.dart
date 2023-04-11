@@ -30,7 +30,7 @@ class FlashMessage extends StatelessWidget {
                                     Text(
                                       'ohh!! snap',
                                       style: TextStyle(
-                                          fontSize: 18, color: Colors.white),
+                                          fontSize: 28, color: Colors.white),
                                     ),
                                     Text(
                                       'Connot show message',
@@ -48,7 +48,7 @@ class FlashMessage extends StatelessWidget {
                       ),
                     ]),
                     behavior: SnackBarBehavior.floating,
-                    backgroundColor: Colors.transparent,
+                    backgroundColor: Color.fromARGB(0, 14, 10, 10),
                     elevation: 0,
                   ),
                 );
